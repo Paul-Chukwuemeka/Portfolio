@@ -24,7 +24,7 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
             <span className="wave -mt-2">👋🏾</span>
           </h1>
           <h1>
-            I'm
+            I&apos;m
             <span className="text-blue-500">
               Paul Chukwuemeka
             </span>
