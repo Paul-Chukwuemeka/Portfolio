@@ -20,17 +20,17 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
       >
         <div className="flex-col flex gap-5">
           <h1 className="flex gap-2">
-            Hi There!{" "}
+            Hi There!
             <span className="wave -mt-2">👋🏾</span>
           </h1>
           <h1>
-            I'm{" "}
+            I'm
             <span className="text-blue-500">
               Paul Chukwuemeka
             </span>
           </h1>
           <h2 className="text-2xl font-bold">
-            I am a{" "}
+            I am a
             <span className="text-blue-500">
               <Typewriter
                 words={[
@@ -67,32 +67,32 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
         <p className="lg:w-3/4 mt-4 text-xl ">
           I am also experienced in building
           <span className="text-blue-500 font-bold">
-            {" "}
+            
             responsive web applications
-          </span>{" "}
+          </span>
           using modern web technologies.
         </p>
         <p className="lg:w-3/4 mt-4 text-xl ">
           Whenever possible, I also apply my
           passion for developing products with
           <span className="text-blue-500 font-bold">
-            {" "}
+            
             Node.js
-          </span>{" "}
-          and Modern{" "}
+          </span>
+          and Modern
           <span className="text-blue-500 font-bold text-xl ">
             JavaScript
-          </span>{" "}
-          Libraries and Frameworks like{" "}
+          </span>
+          Libraries and Frameworks like
           <span className="text-blue-500 font-bold">
             React
-          </span>{" "}
-          and{" "}
+          </span>
+          and
           <span className="text-blue-500 font-bold">
             Next.js
           </span>
         </p>
-        <div>
+        <div className="text-blue-500">
           <Tilt
             className="Tilt"
             tiltReverse={true}
@@ -110,12 +110,12 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
             />
           </Tilt>
           <h1 className="text-3xl font-bold ">
-            Contact me on{" "}
+            Contact me on
           </h1>
-          <span>
-            <FaGithub />
-            <FaLinkedin />
-            <FaTwitter />
+          <span className="flex items-center justify-center gap-10 text-3xl cursor-pointer ">
+            <FaGithub className="hover:text-blue-400" />
+            <FaLinkedin className="hover:text-blue-400" />
+            <FaTwitter className="hover:text-blue-400" />
           </span>
         </div>
       </section>

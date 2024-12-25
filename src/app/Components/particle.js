@@ -36,17 +36,13 @@ const ParticlesComponent = () => {
             mode: "push",
           },
           onHover: {
-            enable: true,
+            enable:false,
             mode: "",
           },
         },
         modes: {
           push: {
             quantity: 4,
-          },
-          repulse: {
-            distance: 10,
-            duration: 0.4,
           },
         },
       },
@@ -68,7 +64,7 @@ const ParticlesComponent = () => {
             default: "bounce",
           },
           random: false,
-          speed: 1,
+          speed: 0.1,
           straight: false,
         },
         number: {
@@ -84,7 +80,7 @@ const ParticlesComponent = () => {
           type: "circle",
         },
         size: {
-          value: { min: 2, max: 2 },
+          value: { min: 0.5, max: 2},
         },
       },
       detectRetina: true,
