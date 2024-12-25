@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(0, 0, 0, 0.911);
+}
+.nav {
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 2px;
+    position: relative;
+  }
+  li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+  }
+  li:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+  }
+}
+
+.wave {
+  animation-name: wave;
+  display: block;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(30deg);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate(10deg);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: rotate(30deg);
+  }
+}
+section {
+  height: fit-content;
+  min-height: 90vh;
+}
