@@ -1,8 +1,12 @@
 "use client";
 import Image from "next/image";
-import {FaGithub,FaLinkedin,FaTwitter} from "react-icons/fa"
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import MyImage from "../assets/pngwing.com.png";
-import Profile from "../assets/Profile.jpg"
+import Profile from "../assets/Profile.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
 
@@ -87,30 +91,33 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
           <span className="text-blue-500 font-bold">
             Next.js
           </span>
-          
         </p>
-            <div >
-            <Tilt
-                className="Tilt"
-                tiltReverse={true}
-                tiltMaxAngleX={15}
-                tiltMaxAngleY={15}
-                perspective={1000}
-                reset={true}
-                scale={1}
-                transitionSpeed={3000}
-            >
-                <Image
-                src={Profile}
-                alt="profile"
-                className="rounded-full my-8 overflow-hidden w-[300px] h-[300px]"
-                />
-            </Tilt>
-            <h1 className="text-3xl font-bold ">Contact me on </h1>
-            <span>
-              
-            </span>
-            </div>
+        <div>
+          <Tilt
+            className="Tilt"
+            tiltReverse={true}
+            tiltMaxAngleX={15}
+            tiltMaxAngleY={15}
+            perspective={1000}
+            reset={true}
+            scale={1}
+            transitionSpeed={3000}
+          >
+            <Image
+              src={Profile}
+              alt="profile"
+              className="rounded-full my-8 overflow-hidden w-[300px] h-[300px]"
+            />
+          </Tilt>
+          <h1 className="text-3xl font-bold ">
+            Contact me on{" "}
+          </h1>
+          <span>
+            <FaGithub />
+            <FaLinkedin />
+            <FaTwitter />
+          </span>
+        </div>
       </section>
     </main>
   );
