@@ -13,6 +13,7 @@ body {
     list-style: none;
     gap: 2px;
     position: relative;
+    padding: 3px 0px;
   }
   li::after {
     content: "";
@@ -21,11 +22,13 @@ body {
     width: 0%;
     height: 2px;
     background-color: white;
-    bottom: 0;
+    bottom: 0px;
+    
   }
   li:hover::after {
     width: 100%;
     transition: width 0.5s;
+    
   }
 }
 
@@ -37,6 +40,16 @@ body {
   animation-timing-function: linear;
 }
 
+.nav-sm{
+  li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+}
 @keyframes wave {
   0%,
   100% {
@@ -59,4 +72,8 @@ body {
 section {
   height: fit-content;
   min-height: 100vh;
+}
+.header{
+  transition: 5s;
+  transition-property:height;
 }

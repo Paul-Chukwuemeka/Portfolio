@@ -12,13 +12,13 @@ import Tilt from "react-parallax-tilt";
 
 const Main = () => {
   return (
-    <main className="text-white bg-[#5e5edf0e] w-full flex flex-col items-center relative -top-20 z-0 ">
+    <main className="text-white w-full flex flex-col items-center relative -top-20 z-0 ">
       <section
-        className="font-bold text-4xl flex justify-evenly flex-col 
+        className="font-bold text-4xl sm:pt-44 flex justify-evenly flex-col 
   md:flex-row  lg:items-center lg:justify-around lg:gap-8
 md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
       >
-        <div className="flex-col flex gap-5">
+        <div className="flex-col flex gap-5 md:p-14">
           <h1 className="flex gap-2">
             Hi There!
             <span className="wave -mt-2">👋🏾</span>

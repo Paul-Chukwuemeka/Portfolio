@@ -74,13 +74,17 @@ const ParticlesComponent = () => {
           value: 100,
         },
         opacity: {
-          value: 0.5,
+          anim: {
+            enable: true,
+            speed: 1,
+            opacity_min: 0.05,
+          },
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 0.5, max: 2},
+          value: { min: 1, max: 1.5},
         },
       },
       detectRetina: true,
