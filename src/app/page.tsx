@@ -7,7 +7,7 @@ import ParticlesComponent from "./Components/particle";
 
 const Page = () => {
   return (
-    <div className="min-h-screen h-full relative">
+    <div className="h-full relative">
       <ParticlesComponent />
       <Header />
       <Main />

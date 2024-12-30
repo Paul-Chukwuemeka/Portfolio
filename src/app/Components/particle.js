@@ -1,5 +1,4 @@
-'use client';
-
+"use client";
 
 import {
   useEffect,
@@ -29,62 +28,45 @@ const ParticlesComponent = () => {
   const options = useMemo(
     () => ({
       fpsLimit: 120,
-      interactivity: {
-        events: {
-          onClick: {
-            enable: true,
-            mode: "push",
-          },
-          onHover: {
-            enable:false,
-            mode: "",
-          },
-        },
-        modes: {
-          push: {
-            quantity: 4,
-          },
-        },
-      },
+
       particles: {
         color: {
-          value: "#ffffff",
+          value: ["#FF0000", "#00FF00","white","white"],
+          random: true,
         },
-        links: {
-          color: "#ffffff",
-          distance: 50,
-          enable: false,
-          opacity: 0.5,
-          width: 1,
-        },
+        
         move: {
           direction: "none",
           enable: true,
           outModes: {
             default: "bounce",
           },
-          random: false,
+          random: true,
+          sync: false,
           speed: 0.1,
           straight: false,
         },
         number: {
           density: {
-            enable: true,
+            enable: false,
+            
           },
-          value: 100,
+          value: 50,
         },
         opacity: {
           anim: {
             enable: true,
-            speed: 1,
-            opacity_min: 0.05,
+            speed: 5,
+            opacity_max:1,
+            opacity_min: 0.1,
+            sync: false,
           },
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 1.5},
+          value: { min: 1, max: 1.2 },
         },
       },
       detectRetina: true,

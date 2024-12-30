@@ -12,7 +12,8 @@ import Tilt from "react-parallax-tilt";
 
 const Main = () => {
   return (
-    <main className="text-white w-full flex flex-col items-center relative -top-20 z-0 ">
+    <main className="text-white w-full flex flex-col items-center relative
+     -top-20  z-0 ">
       <section
         className="font-bold text-4xl sm:pt-44 flex justify-evenly flex-col 
   md:flex-row  lg:items-center lg:justify-around lg:gap-8

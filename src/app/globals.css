@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgba(0, 0, 0, 0.911);
+  background-color: rgb(1, 17, 24);
 }
 .nav {
   li {
@@ -23,12 +23,10 @@ body {
     height: 2px;
     background-color: white;
     bottom: 0px;
-    
   }
   li:hover::after {
     width: 100%;
     transition: width 0.5s;
-    
   }
 }
 
@@ -40,7 +38,7 @@ body {
   animation-timing-function: linear;
 }
 
-.nav-sm{
+.nav-sm {
   li {
     display: flex;
     align-items: center;
@@ -73,7 +71,32 @@ section {
   height: fit-content;
   min-height: 100vh;
 }
-.header{
+.header {
   transition: 5s;
-  transition-property:height;
+  transition-property: height;
+}
+.skills {
+  background-color: transparent;
+  outline: 1px solid #0284c7;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 500ms ease-in-out 300ms;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  p {
+    transition: 500ms ease-in-out 300ms;
+
+    font-size: 0px;
+  }
+}
+.skills:hover {
+  outline: 3px solid #0284c7;
+  color: #0284c7;
+  scale: 1.05;
+  p {
+
+    font-size: 16px;
+  }
 }
