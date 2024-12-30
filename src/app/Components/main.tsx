@@ -12,10 +12,12 @@ import Tilt from "react-parallax-tilt";
 
 const Main = () => {
   return (
-    <main className="text-white w-full flex flex-col items-center relative
-     -top-20  z-0 ">
+    <main
+      className="text-white w-full flex flex-col items-center relative
+     -top-20"
+    >
       <section
-        className="font-bold text-4xl sm:pt-44 flex justify-evenly flex-col 
+        className="font-bold px-32 py-20 text-4xl sm:pt-44 flex justify-evenly flex-col 
   md:flex-row  lg:items-center lg:justify-around lg:gap-8
 md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
       >
@@ -56,11 +58,11 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
           className="lg:w-1/2"
         />
       </section>
-      <section className=" flex flex-col items-center p-8 text-center">
+      <section className=" flex flex-col items-center p-8">
         <h2 className="text-4xl font-bold text-blue-500 mt-8 ">
           About Me
         </h2>
-        <p className="text-center text-xl lg:w-3/4 mt-4">
+        <p className="text-xl lg:w-3/4 mt-4">
           I am a Frontend Developer with a passion
           for creating beautiful and functional
           user interfaces.
@@ -92,7 +94,7 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
           </span>
           .
         </p>
-        <div className="text-blue-500">
+        <div className="text-blue-500 ">
           <Tilt
             className="Tilt"
             tiltReverse={true}
@@ -106,11 +108,11 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
             <Image
               src={Profile}
               alt="profile"
-              className="rounded-2xl my-8 overflow-hidden 
+              className="rounded-2xl my-8 overflow-hidden m-auto              
               w-[300px] h-[300px] shadow-md shadow-blue-300"
             />
           </Tilt>
-          <h1 className="text-3xl font-bold ">
+          <h1 className="text-3xl font-bold text-center">
             Contact me on
           </h1>
           <span

@@ -5,6 +5,9 @@
 body {
   background-color: rgb(1, 17, 24);
 }
+*{
+  /* outline:solid ;  */
+}
 .nav {
   li {
     display: flex;
@@ -15,6 +18,7 @@ body {
     position: relative;
     padding: 3px 0px;
   }
+
   li::after {
     content: "";
     display: block;
@@ -24,6 +28,7 @@ body {
     background-color: white;
     bottom: 0px;
   }
+
   li:hover::after {
     width: 100%;
     transition: width 0.5s;
@@ -48,11 +53,13 @@ body {
     cursor: pointer;
   }
 }
+
 @keyframes wave {
   0%,
   100% {
     transform: rotate(30deg);
   }
+
   10%,
   30%,
   50%,
@@ -60,6 +67,7 @@ body {
   90% {
     transform: rotate(10deg);
   }
+
   20%,
   40%,
   60%,
@@ -67,36 +75,37 @@ body {
     transform: rotate(30deg);
   }
 }
-section {
-  height: fit-content;
-  min-height: 100vh;
-}
+
+
+
 .header {
   transition: 5s;
   transition-property: height;
 }
+
 .skills {
   background-color: transparent;
   outline: 1px solid #0284c7;
   border-radius: 10px;
   cursor: pointer;
-  transition: 500ms ease-in-out 300ms;
+  transition: 500ms ease-in-out;
   padding: 50px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
+
   p {
     transition: 500ms ease-in-out 300ms;
-
+    color: #0284c7;
     font-size: 0px;
   }
 }
+
 .skills:hover {
-  outline: 3px solid #0284c7;
   color: #0284c7;
   scale: 1.05;
+  box-shadow:#0284c7 0 0 10px  ;
   p {
-
     font-size: 16px;
   }
 }
