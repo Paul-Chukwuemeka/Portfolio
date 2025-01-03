@@ -20,7 +20,7 @@ import { IoLogoFirebase,IoLogoVercel } from "react-icons/io5";
 
 const page = () => {
   return (
-    <div className="h-full relative pb-32">
+    <div className="h-full relative">
       <ParticlesComponent />
       <Header />
       <main className="text-white pt-24 px-20 max-lg:px-0">
