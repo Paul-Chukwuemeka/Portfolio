@@ -23,7 +23,7 @@ const page = () => {
     <div className="h-full relative pb-32">
       <ParticlesComponent />
       <Header />
-      <main className="text-white pt-24 px-20 ">
+      <main className="text-white pt-24 px-20 max-lg:px-0">
         <div
           className=" max-md:flex-col
         max-md:justify-center max-md:items-center lg:flex gap-4 
