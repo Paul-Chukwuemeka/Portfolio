@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "./Components/header";
-import Footer from "./Components/footer";
-import Main from "./Components/main";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Main from "./Components/Main";
 import ParticlesComponent from "./Components/particle";
 
 
 const Page = () => {
   return (
-    <div className="h-full relative">
+    <div className="h-full relative pb-10">
       <ParticlesComponent />
       <Header />
       <Main />

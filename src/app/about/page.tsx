@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Cartoon from "../assets/about-cartoon.png";
-import Header from "../Components/header";
-import Footer from "../Components/footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import ParticlesComponent from "../Components/particle";
 import {
   FaHandPointRight,
@@ -20,7 +20,7 @@ import { IoLogoFirebase,IoLogoVercel } from "react-icons/io5";
 
 const page = () => {
   return (
-    <div>
+    <div className="h-full relative pb-32">
       <ParticlesComponent />
       <Header />
       <main className="text-white pt-24 px-20 ">
