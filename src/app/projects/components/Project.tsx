@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  FaGithub,
-  FaGlobe,
+  // FaGithub,
+  // FaGlobe,
   FaReact,
 } from "react-icons/fa";
-// import Image from "next/image";
+import Image from "next/image";
 
 interface ProjectProps {
   project: {
@@ -31,31 +31,21 @@ const Project: React.FC<ProjectProps> = ({
 }) => {
   return (
     <div className="shadow-custom-shadow flex flex-col items-center justify-center shadow-sky-400 p-4 rounded-lg hover:scale-[1.10] duration-500 hover:m-2 max-md:max-w-96 ">
-      {/* <Image
+      <Image
         alt="screenshot of Project"
-        src={project.image}
-      /> */}
+        src={project.images.src}
+        width={400}
+        height={100}
+        className="w-full"
+
+      />
 
       <h2>{project.name}</h2>
 
       <p className="p-4 w-[300px] text-center max-sm:text-sm max-md:text-md max-lg:text-md ">
         {project.description}
       </p>
-      <div className="flex gap-3 items-center justify-center my-2 w-full">
-        <a
-          href={project.github}
-          className="bg-sky-500 gap-2 items-center flex p-2 rounded text"
-        >
-          <FaGithub /> GitHub
-        </a>
-        <a
-          href={project.github}
-          className="bg-sky-500 p-2 rounded gap-2 items-center flex"
-        >
-          <FaGlobe />
-          Live
-        </a>
-      </div>
+
       <p className="my-2 text-center">
         Technologies Used:
       </p>

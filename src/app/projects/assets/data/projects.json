@@ -11,48 +11,56 @@
         "Tailwind CSS"
       ],
       "images": {
-        "src": "/images/project2-1.jpg",
+        "src": "/images/tic-tac-toe.png",
         "alt": "ScreenShot of Project 1"
       }
     },
     {
-      "name": "Project 2",
-      "description": "Description of Project 2",
-      "github": "https://github.com/yourusername/project2",
+      "name": "Ip Address Tracker",
+      "description": "A responsive IP address tracker built using React, utilizing the IP Geolocation API for data retrieval. This project was completed as part of a Frontend Mentor challenge.",
+      "github": "https://github.com/Paul-Chukwuemeka/ip-address-tracker",
+      "live": "ip-address-tracker-three-blush.vercel.app",
       "technologies": [
-        "Technology 3",
-        "Technology 4"
+        "React.js",
+        "Javascript",
+        "Tailwind CSS",
+        "IP Geolocation API"
       ],
       "images": {
-        "src": "/images/project2-1.jpg",
+        "src": "/images/ip-address tracker.png",
+        "alt": "Main interface of Project 2"
+      }
+    }
+    ,
+    {
+      "name": "Ip Address Tracker",
+      "description": "A responsive IP address tracker built using React, utilizing the IP Geolocation API for data retrieval. This project was completed as part of a Frontend Mentor challenge.",
+      "github": "https://github.com/Paul-Chukwuemeka/ip-address-tracker",
+      "live": "ip-address-tracker-three-blush.vercel.app",
+      "technologies": [
+        "React.js",
+        "Javascript",
+        "Tailwind CSS",
+        "IP Geolocation API"
+      ],
+      "images": {
+        "src": "/images/ip-address tracker.png",
         "alt": "Main interface of Project 2"
       }
     },
     {
-      "name": "TIC-TAC-TOE",
-      "description": "This project is a web-based Tic-Tac-Toe game built primarily with TypeScript, using the React.js framework. It allows two players to compete by marking spaces in a 3x3 grid to align three marks in a row to win.",
-      "github": "https://github.com/Paul-Chukwuemeka/tictactoe",
-      "live": "https://yourusername.github.io/project1",
+      "name": "Ip Address Tracker",
+      "description": "A responsive IP address tracker built using React, utilizing the IP Geolocation API for data retrieval. This project was completed as part of a Frontend Mentor challenge.",
+      "github": "https://github.com/Paul-Chukwuemeka/ip-address-tracker",
+      "live": "ip-address-tracker-three-blush.vercel.app",
       "technologies": [
-        "TypeScript",
         "React.js",
-        "Tailwind CSS"
+        "Javascript",
+        "Tailwind CSS",
+        "IP Geolocation API"
       ],
       "images": {
-        "src": "/images/project2-1.jpg",
-        "alt": "ScreenShot of Project 1"
-      }
-    },
-    {
-      "name": "Project 2",
-      "description": "Description of Project 2",
-      "github": "https://github.com/yourusername/project2",
-      "technologies": [
-        "Technology 3",
-        "Technology 4"
-      ],
-      "images": {
-        "src": "/images/project2-1.jpg",
+        "src": "/images/ip-address tracker.png",
         "alt": "Main interface of Project 2"
       }
     }

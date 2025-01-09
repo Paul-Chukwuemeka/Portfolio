@@ -5,8 +5,6 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import MyImage from "../assets/pngwing.com.png";
-import Profile from "../assets/Profile.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
 
@@ -52,8 +50,9 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
           </h2>
         </div>
         <Image
-          src={MyImage}
+          src={"/images/pngwing.com.png"}
           width={400}
+          height={400}
           alt="profile"
           className="lg:w-1/2"
         />
@@ -106,10 +105,12 @@ md:justify-around md:gap-1 gap-8 items-center bg-[#5e5edf21] w-full"
             transitionSpeed={3000}
           >
             <Image
-              src={Profile}
+              src={"/images/Profile.jpg"}
+              height={300}
+              width={300}
               alt="profile"
               className="rounded-2xl my-8 overflow-hidden m-auto              
-              w-[300px] h-[300px] shadow-md shadow-blue-300"
+               shadow-md shadow-blue-300"
             />
           </Tilt>
           <h1 className="text-3xl font-bold text-center">

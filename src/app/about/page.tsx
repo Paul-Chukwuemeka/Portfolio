@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Cartoon from "../assets/about-cartoon.png";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import ParticlesComponent from "../Components/particle";
@@ -111,8 +110,9 @@ const page = () => {
             </ul>
           </div>
           <Image
-            src={Cartoon}
+            src={"/images/about-cartoon.png"}
             width={400}
+            height={400}
             alt=""
             className=" m-auto"
           />
