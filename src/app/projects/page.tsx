@@ -17,7 +17,7 @@ const page = () => {
             Here are some of my recent projects
           </p>
 
-          <section className="grid lg:grid-cols-3 sm:px-36 lg:px-20 max-sm:grid-cols-1 max-md:grid-cols-2 gap-4 p-5 border justify-center">
+          <section className="grid lg:grid-cols-3 sm:px-36 lg:px-10  max-sm:grid-cols-1 md:p-10 md:grid-cols-2 gap-4 p-5 border justify-center">
             {projects.map((project, index) => (
               <Project
                 key={index}
