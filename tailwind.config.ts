@@ -9,7 +9,11 @@ export default {
   theme: {
     extend: {
       animation:{
-        wave: 'wave 1s linear infinite'
+        wave: 'wave 1s linear infinite',
+
+      },
+      boxShadow: {
+        'custom-shadow': '0 0 40px -10px',
       },
       keyframes:{
         wave:{
@@ -26,6 +30,6 @@ export default {
     },
   },
   plugins: [
-    require('tailwindcss-animated')
+ 
   ],
 } satisfies Config;

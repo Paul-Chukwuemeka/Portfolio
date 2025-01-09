@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "name": "TIC-TAC-TOE",
+      "description": "This project is a web-based Tic-Tac-Toe game built primarily with TypeScript, using the React.js framework. It allows two players to compete by marking spaces in a 3x3 grid to align three marks in a row to win.",
+      "github": "https://github.com/Paul-Chukwuemeka/tictactoe",
+      "live": "https://yourusername.github.io/project1",
+      "technologies": [
+        "TypeScript",
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "images": {
+        "src": "/images/project2-1.jpg",
+        "alt": "ScreenShot of Project 1"
+      }
+    },
+    {
+      "name": "Project 2",
+      "description": "Description of Project 2",
+      "github": "https://github.com/yourusername/project2",
+      "technologies": [
+        "Technology 3",
+        "Technology 4"
+      ],
+      "images": {
+        "src": "/images/project2-1.jpg",
+        "alt": "Main interface of Project 2"
+      }
+    },
+    {
+      "name": "TIC-TAC-TOE",
+      "description": "This project is a web-based Tic-Tac-Toe game built primarily with TypeScript, using the React.js framework. It allows two players to compete by marking spaces in a 3x3 grid to align three marks in a row to win.",
+      "github": "https://github.com/Paul-Chukwuemeka/tictactoe",
+      "live": "https://yourusername.github.io/project1",
+      "technologies": [
+        "TypeScript",
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "images": {
+        "src": "/images/project2-1.jpg",
+        "alt": "ScreenShot of Project 1"
+      }
+    },
+    {
+      "name": "Project 2",
+      "description": "Description of Project 2",
+      "github": "https://github.com/yourusername/project2",
+      "technologies": [
+        "Technology 3",
+        "Technology 4"
+      ],
+      "images": {
+        "src": "/images/project2-1.jpg",
+        "alt": "Main interface of Project 2"
+      }
+    }
+  ]
+}
