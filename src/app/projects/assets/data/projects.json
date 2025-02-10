@@ -65,6 +65,23 @@
         "src": "/images/Note.png",
         "alt": "Main interface of Project 2"
       }
+    },
+    {
+      "name": "Url shortner",
+      "description": "A simple and user-friendly note-taking application built with React and Typescript. Allows users to create, edit, and delete notes.",
+      "github": "https://github.com/Paul-Chukwuemeka/url-shortner",
+      "live": "https://url-shortner-nir5xfb6j-paul-chukwuemekas-projects.vercel.app/",
+      "technologies": [
+        "React.js",
+        "Typecript",
+        "Tailwind CSS",
+        "shortly api"
+        
+      ],
+      "images": {
+        "src": "/images/Url.png",
+        "alt": "Main interface of Project 2"
+      }
     }
   ]
 }
