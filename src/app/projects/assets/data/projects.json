@@ -33,34 +33,36 @@
     }
     ,
     {
-      "name": "Ip Address Tracker",
-      "description": "A responsive IP address tracker built using React, utilizing the IP Geolocation API for data retrieval. This project was completed as part of a Frontend Mentor challenge.",
-      "github": "https://github.com/Paul-Chukwuemeka/ip-address-tracker",
-      "live": "ip-address-tracker-three-blush.vercel.app",
+      "name": "Full stack Library Management System",
+      "description": "A full-stack library management system built with React, Node.js, Express.js, and MongoDB. It allows users to manage books, including adding, updating, and deleting entries.",
+      "github": "https://github.com/Paul-Chukwuemeka/BookManagement",
+      "live": "https://github.com/Paul-Chukwuemeka/BookManagement",
       "technologies": [
         "React.js",
         "Javascript",
         "Tailwind CSS",
-        "IP Geolocation API"
+        "MongoDB",
+        "Express.js",
+        "Node.js"
       ],
       "images": {
-        "src": "/images/ip-address tracker.png",
-        "alt": "Main interface of Project 2"
+        "src": "/images/fullstackapp.png",
+        "alt": "Main interface of Project 3"
       }
     },
     {
-      "name": "Ip Address Tracker",
-      "description": "A responsive IP address tracker built using React, utilizing the IP Geolocation API for data retrieval. This project was completed as part of a Frontend Mentor challenge.",
-      "github": "https://github.com/Paul-Chukwuemeka/ip-address-tracker",
-      "live": "ip-address-tracker-three-blush.vercel.app",
+      "name": "Note app",
+      "description": "A simple and user-friendly note-taking application built with React and Typescript. Allows users to create, edit, and delete notes.",
+      "github": "https://github.com/Paul-Chukwuemeka/note-app",
+      "live": "https://note-app-seven-lyart.vercel.app/",
       "technologies": [
         "React.js",
-        "Javascript",
-        "Tailwind CSS",
-        "IP Geolocation API"
+        "Typecript",
+        "Tailwind CSS"
+        
       ],
       "images": {
-        "src": "/images/ip-address tracker.png",
+        "src": "/images/Note.png",
         "alt": "Main interface of Project 2"
       }
     }

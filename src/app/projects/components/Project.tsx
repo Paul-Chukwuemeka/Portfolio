@@ -35,8 +35,8 @@ const Project: React.FC<ProjectProps> = ({
         alt="screenshot of Project"
         src={project.images.src}
         width={400}
-        height={100}
-        className="w-full"
+        height={200}
+        className="w-full h-[200px]"
 
       />
 
