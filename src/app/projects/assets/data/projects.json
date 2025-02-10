@@ -63,12 +63,12 @@
       ],
       "images": {
         "src": "/images/Note.png",
-        "alt": "Main interface of Project 2"
+        "alt": "Main interface of Project 4"
       }
     },
     {
       "name": "Url shortner",
-      "description": "A simple and user-friendly note-taking application built with React and Typescript. Allows users to create, edit, and delete notes.",
+      "description":"This URL shortener, built with React and TypeScript, utilizes the Shortly API to create shortened links. Provides a clean interface for quickly generating and managing shortened links.",
       "github": "https://github.com/Paul-Chukwuemeka/url-shortner",
       "live": "https://url-shortner-nir5xfb6j-paul-chukwuemekas-projects.vercel.app/",
       "technologies": [
@@ -80,8 +80,42 @@
       ],
       "images": {
         "src": "/images/Url.png",
-        "alt": "Main interface of Project 2"
+        "alt": "Main interface of Project 5"
+      }
+    },
+    {
+      "name": "Country database",
+      "description": "A country information database application built with React. Provides a searchable interface to explore details about different countries around the world.",
+      "github": "https://github.com/Paul-Chukwuemeka/FrontEnd-Mentor-country--api",
+      "live": "front-end-mentor-country-api.vercel.app",
+      "technologies": [
+        "React.js",
+        "Javascript",
+        "Tailwind CSS"
+        
+      ],
+      "images": {
+        "src": "/images/Url.png",
+        "alt": "Main interface of Project 6"
+      }
+    },
+    {
+      "name": "Weather app",
+      "description": "This React app utilizes the weatherapi.com API to display current weather conditions, forecasts, and other relevant weather information for any specified location.",
+      "github": "https://github.com/Paul-Chukwuemeka/weather-app",
+      "live": "weather-kqi9z0u7z-paul-chukwuemekas-projects.vercel.app",
+      "technologies": [
+        "React.js",
+        "Javascript",
+        "Tailwind CSS",
+        "weatherapi.com"
+        
+      ],
+      "images": {
+        "src": "/images/Url.png",
+        "alt": "Main interface of Project 6"
       }
     }
   ]
 }
+
